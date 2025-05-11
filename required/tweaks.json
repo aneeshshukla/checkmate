@@ -1,0 +1,4 @@
+{
+  "blacklist": ["ryujinx", "Godot", "Visual Studio Code"],
+  "alternatives": []
+}
