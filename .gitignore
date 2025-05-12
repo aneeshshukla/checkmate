@@ -1,4 +1,6 @@
 *.gitignore
+app.pyw
 test.py
 run_server.bat
 required/__pycache__
+.kanbn
