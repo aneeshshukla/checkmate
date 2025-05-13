@@ -29,11 +29,6 @@
 
 ---
 
-## 📸 Screenshots
-
-![Dashboard Preview](.github/images/screenshot1.png)
-![Details View](.github/images/screenshot2.png)
-
 ## 🏗️ Installation
 
 Follow these steps to set up Checkmate on your system:
