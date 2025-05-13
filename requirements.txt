@@ -1,0 +1,4 @@
+pygetwindow
+psutil
+GPUtil
+pywin32

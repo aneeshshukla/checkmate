@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkmate</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='stylesheets/styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>Checkmate</header>
+    <main>
+      <div id="status" class="card">
+        <h2>System Status</h2>
+        <p><strong>CPU Usage:</strong> Loading...</p>
+        <p><strong>Memory Usage:</strong> Loading...</p>
+        <p><strong>GPU Usage:</strong> Loading...</p>
+        <p><strong>Focused App:</strong> Loading...</p>
+      </div>
+      <div id="actions" class="card" style="display: none">
+        <h2>Performance Actions</h2>
+        <button class="btn">Optimize Now</button>
+        <button class="btn">Clear Cache</button>
+        <button class="btn">Close Unnecessary Apps</button>
+      </div>
+    </main>
+    <footer>Project under first development state</footer>
+    <!-- <footer>&copy; 2025 PC Performance Manager. All rights reserved.</footer> -->
+  </body>
+  <script src="{{ url_for('static', filename='functions/action.js') }}"></script>
+</html>
